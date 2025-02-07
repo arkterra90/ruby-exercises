@@ -4,22 +4,28 @@ def add(a, b)
 end
 
 def subtract(a, b)
+  a - b 
   # return the result of subtracting b from a
 end
 
 def multiply(a, b)
   # return the result of multiplying a times b
+  a * b
 end
 
 def divide(a, b)
+  a / b
   # return the result of dividing a by b
 end
 
 def remainder(a, b)
+
+  a % b 
   # return the remainder of dividing a by b using the modulo operator
 end
 
 def float_division(a, b)
+  a.float / b
   # return the result of dividing a by b as a float, rather than an integer
 end
 
